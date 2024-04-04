@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chenille</title>
     <style>
         .chenille {
             display: flex;
-            align-items: center;
             justify-content: center;
+            margin-top: 50px;
         }
 
         .partie {
             width: 50px;
             height: 50px;
-            border-radius: 50%;
             background-color: green;
-            margin: 5px;
+            border-radius: 50%;
+            margin: 0 10px; /* Espacement entre les parties de la chenille */
         }
 
         .tete {
@@ -28,14 +26,13 @@
         }
     </style>
 </head>
-
 <body>
     <div class="chenille">
         <div class="partie tete"></div>
         <div class="partie"></div>
         <div class="partie"></div>
         <div class="partie"></div>
+        <!-- Ajoutez d'autres parties de la chenille selon vos besoins -->
     </div>
 </body>
-
 </html>
