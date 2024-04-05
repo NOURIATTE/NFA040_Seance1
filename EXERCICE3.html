@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <h2>Inscription</h2>
+    <form>
+        <div>
+            <label for="pseudo">Pseudo :</label>
+            <input type="text" id="pseudo" name="pseudo" required>
+        </div>
+        <div>
+            <label for="mot_de_passe">Mot de passe :</label>
+            <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+        </div>
+        <div>
+            <label for="conf_mot_de_passe">Ressaisir votre mot de passe :</label>
+            <input type="password" id="conf_mot_de_passe" name="conf_mot_de_passe" required>
+        </div>
+        <div>
+            <label for="os_prefere">OS préféré :</label><br>
+            <input type="radio" id="windows_xp" name="os_prefere" value="Windows XP">
+            <label for="windows_xp">Windows XP</label><br>
+            <input type="radio" id="windows_vista" name="os_prefere" value="Windows Vista">
+            <label for="windows_vista">Windows Vista</label><br>
+            <input type="radio" id="macosx" name="os_prefere" value="MacOS X">
+            <label for="macosx">MacOS X</label><br>
+            <input type="radio" id="linux" name="os_prefere" value="Linux">
+            <label for="linux">Linux</label><br>
+            <input type="radio" id="autres" name="os_prefere" value="Autres">
+            <label for="autres">Autres</label><br>
+        </div>
+        <div>
+            <label for="ordinateur_type">Vous possédez :</label><br>
+            <input type="checkbox" id="desktop" name="ordinateur_type" value="Ordinateur de bureau">
+            <label for="desktop">Un ordinateur de bureau</label><br>
+            <input type="checkbox" id="laptop" name="ordinateur_type" value="Portable">
+            <label for="laptop">Un portable</label><br>
+        </div>
+        <div>
+<label for="os_prefere">OS préféré :</label><br>
+            <input type="radio" id="windows_xp" name="os_prefere" value="Windows XP">
+            <label for="windows_xp">Windows XP</label><br>
+            <input type="radio" id="windows_vista" name="os_prefere" value="Windows Vista">
+            <label for="windows_vista">Windows Vista</label><br>
+            <input type="radio" id="macosx" name="os_prefere" value="MacOS X">
+            <label for="macosx">MacOS X</label><br>
+            <input type="radio" id="linux" name="os_prefere" value="Linux">
+            <label for="linux">Linux</label><br>
+            <input type="radio" id="autres" name="os_prefere" value="Autres">
+            <label for="autres">Autres</label><br>
+        </div>
+        <div>
+            <label for="ordinateur_type">Vous possédez :</label><br>
+            <input type="checkbox" id="desktop" name="ordinateur_type" value="Ordinateur de bureau">
+            <label for="desktop">Un ordinateur de bureau</label><br>
+            <input type="checkbox" id="laptop" name="ordinateur_type" value="Portable">
+            <label for="laptop">Un portable</label><br>
+        </div>
+        <div>
+            <label for="profession">Votre profession :</label><br>
+            <select id="profession" name="profession">
+                <option value="Chômeurs">Chômeurs</option>
+                <option value="Étudiant">Étudiant</option>
+                <option value="Fonctionnaire">Fonctionnaire</option>
+                <option value="Privée">Privée</option>
+                <option value="Retraité">Retraité</option>
+            </select><br>
+        </div>
+        <button type="submit">S'inscrire</button>
+    </form>
+</body>
+</html>
